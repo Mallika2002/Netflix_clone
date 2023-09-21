@@ -1,0 +1,100 @@
+.featured{
+    /* height: 90vh; */
+    position:relative;
+}
+.featured .category{
+    position: absolute;
+    top:80px;
+    left:50px;
+    font-size: 30px;
+    font-weight: 500;
+    color:white;
+    align-items: center;
+    display: flex;
+
+}
+.featured .category select{
+    cursor: pointer;
+    background-color: var(--main-color);
+    border:1px solid white;
+    margin-left:20px;
+    padding:6px;
+    color:white;
+}
+/* .image{
+   height: 100%;
+} */
+.info{
+    width:35%;
+    position:absolute;
+    left:185px;
+    bottom:360px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+.info img{
+    width:375px;
+}
+.desc{
+    color:white;
+    margin: 20px 0px;
+    font-size: 19px;
+}
+.k{
+    font-style: 'italic';
+    font-family: 'GothamBook';
+    color:black;
+    font-size:90px;
+}
+.k2{
+    font-size:35px;
+    color:black;
+    font-style: 'italic';
+    font-family: 'GothamBook';
+    display: inline-block;
+    padding-left: 10px;
+}
+.k1{
+    color:black;
+    font-size: 45px;
+    display: inline-block;
+    padding-left: 10px;
+}
+.k3{
+     color:black;
+     font-size: 45px;
+     padding-left: 40px;
+     display: inline-block;
+ }
+ .o{
+    color:white;
+    font-size:90px;
+ }
+ .buttons{
+    display: flex;
+ }
+ .buttons button{
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+    cursor: pointer;
+ }
+ .buttons .play{
+    background-color: white;
+    color:var(--main-color);
+ }
+ .buttons .more{
+    background-color:gray;
+    color:white;
+ }
+ .buttons span{
+    margin-top: 3px;
+    margin-left: 6px;
+    font: bold 20px/1 'Netflix Sans', sans-serif;
+ }
